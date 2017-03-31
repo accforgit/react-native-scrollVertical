@@ -14,7 +14,7 @@ export default class Index extends Component {
       data.push({content: 'animatedScroll ' + i})
     }
     return (
-      <Temp
+      <ScrollVertical
         data={data}
         delay={1000}
         duration={300}
